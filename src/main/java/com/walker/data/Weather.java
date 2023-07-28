@@ -6,7 +6,7 @@ public enum Weather {
     CLOUDY(0.5),
     OVERCAST(0.8);
 
-    private double coverage;
+    private final double coverage;
 
     Weather(double coverage) {
         this.coverage = coverage;
